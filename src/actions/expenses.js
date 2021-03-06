@@ -36,12 +36,48 @@ export const removeExpense = ({ id } = {}) => ({
   id,
 });
 
+// Expense Removal Challenge!
+
+// 1. Create startRemoveExpense (same call signature removeExpense)
+// 2. Test startRemoveExpense with "should remove expenses from firebase"
+// 3. Use startRemoveExpense in EditExpensePage instead of removeExpense
+// 4. Adjust EditExpensePage tests
+
+export const startRemoveExpense = ({ id } = {}) => {
+  return (dispatch) => {
+    return database
+      .ref(`expenses/${id}`)
+      .remove()
+      .then(() => {
+        dispatch(removeExpense({ id }));
+      });
+  };
+};
+
 // EDIT_EXPENSE
 export const editExpense = (id, updates) => ({
   type: "EDIT_EXPENSE",
   id,
   updates,
 });
+
+// Expense Update Challenge!
+
+// 1. Create startEditExpense (same call signature as editExpense)
+// 2. Test startEditExpense with "should edit expense from firebase"
+// 3. Use startEditExpense in EditExpense instead of editExpense
+// 4. Adjust EditExpensePage tests
+
+export const startEditExpense = (id, updates) => {
+  return (dispatch) => {
+    return database
+      .ref(`expenses/${id}`)
+      .update(updates)
+      .then(() => {
+        dispatch(editExpense(id, updates));
+      });
+  };
+};
 
 // SET_EXPENSES
 
