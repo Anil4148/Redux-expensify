@@ -8,7 +8,7 @@ const About = () => {
             <div className="row">
               <div className="col-md-6 col-xs-12 about-sec">
                 <p>
-                  Hi there. We’re a new entertainment platform that will harness the power of entertainment to inspire,
+                  Hi there. We’re a new financial manager platform that will harness the power of financial manager to inspire,
                   entertain, and transform lives.
                 </p>
                 <p>
@@ -28,56 +28,8 @@ const About = () => {
                   compelling as well as personally empowering.
                 </p>
                 <p>
-                  <strong>
-                    What’s our​ <i>Why</i> ​at Million Stories​?{' '}
-                  </strong>
-                </p>
-                <p className="mb-0">
-                  We’re the largest generation of adults in America, but we haven't learned how to make the system work
-                  for us. Most of us don't even know what we don't know. The truth is, not everyone knows where to
-                  start. It even seems overwhelming. Here's why.
-                </p>
-                <ul className="aboutList">
-                  <li>Only 44% of Millennials are financially literate.</li>
-                  <li>The average Millennial is $42,000 in debt.</li>
-                  <li>Collectively, we have $1.5 trillion in student loan debt.</li>
-                  <li>The under-25 age group is the fastest-growing group filing for bankruptcy.</li>
-                  <li>More than 78% of Americans, many of them us and our parents, live paycheck to paycheck.</li>
-                </ul>
-                <p>
-                  Millennials alive today are expected to live into our 90s. We've got to find solutions that work. And
-                  fast.
-                </p>
-                <p>
-                  <strong>
-                    Million Stories has one goal:​ <i>Your success.</i>
-                  </strong>
-                </p>
-                <p>
-                  With the right resources and skills, we can build a future that works for us, and maybe even for
-                  everybody.
-                </p>
-                <p>
-                  In addition to our entertainment programming, we’ll be offering a wide array of trustworthy learning
-                  resources. (One reason they’re trustworthy: We’re not selling anything.) We’ll give you the tools to
-                  become financially savvy, strong, and independent, no matter where you are in your financial life at
-                  the moment.
-                </p>
-
-                <p>
                   Even in today’s difficult market, you can be stronger financially, and one of our main goals is to
-                  help make that happen. We’re a project of{' '}
-                  <a
-                    href="http://singletonfoundation.org"
-                    // onClick={() => outboundPage("http://singletonfoundation.org")}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="social-link"
-                  >
-                    Singleton Foundation for Financial Literacy and Entrepreneurship
-                  </a>{' '}
-                  a 501(c)(3) non-profit, and making our audience—you—financially competent, with the ability to think
-                  like an entrepreneur, is our mission.
+                  help make that happen. 
                 </p>
               </div>
             </div>
