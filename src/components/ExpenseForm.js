@@ -1,5 +1,6 @@
 import React from 'react';
 import moment from 'moment';
+import { Link } from 'react-router-dom';
 import 'react-dates/initialize';
 import { SingleDatePicker } from 'react-dates';
 import 'react-dates/lib/css/_datepicker.css'
@@ -92,6 +93,7 @@ export default class ExpenseForm extends React.Component {
           </textarea>
           <div>
             <button className="button">Save Expense</button>
+            <Link className="button" to="/dashboard">Back To List</Link>
           </div>
         </form>
     )
