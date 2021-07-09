@@ -15,7 +15,7 @@ export const Footer = () => (
             {/* <FullLogo iconfill="#ffffff" iconWidth="168" iconHeight="34" className="full-logo" alt="Singleton Logo" /> */}
             <div className="footer-socail-icon">
               <a
-                href=""
+                href="https://www.instagram.com/anilbindash36/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="social-link"
